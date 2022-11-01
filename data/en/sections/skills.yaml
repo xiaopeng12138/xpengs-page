@@ -3,47 +3,55 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
+
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Blender
+  logo: /images/sections/skills/blender.png
+  summary: "the primary tool for 3D Modeling and 3D motion graphic animations."
+  url: "https://blender.org"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Adobe After Effects
+  logo: /images/sections/skills/after-effects.png
+  summary: "Have over 6 years of experience. capable of professional video compositing and 2D motion graphic animations."
+  url: "https://www.adobe.com/aftereffects"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Adobe Premiere Pro
+  logo: /images/sections/skills/premiere-pro.png
+  summary: "Capable of video editing, audio processing, and color grading."
+  url: "http://www.adobe.com/products/premiere.html"
+
+- name: Adobe Photoshop
+  logo: /images/sections/skills/photoshop.png
+  summary: "Using as the primary 2D design tools. Capable of photo editing and 2D graphic design"
+  url: "https://www.adobe.com/products/photoshop.html"
+
+- name: Unity
+  logo: /images/sections/skills/unity.svg
+  summary: "Know the basics of the game engine. Have experience in VR game development."
+  url: "https://unity.com/"
+
+- name: C#
+  logo: /images/sections/skills/csharp.png
+  summary: "Basic knowledge of object-oriented programming. Using as a scripting language for Unity3D and Godot for game development."
+  url: "https://docs.microsoft.com/de-de/dotnet/csharp/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Using Docker for all my home server hosting."
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
+- name: Debian
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Using as home server system"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with Gitea."
   url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

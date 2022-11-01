@@ -1,0 +1,44 @@
+{{ $achievementImage := resources.Get .image }}
+{{ $achievementImageLg := ""}}
+{{ $achievementImageSm := ""}}
+{{ $video := .video }}
+{{ $type := .type }}
+{{ $randNumber :=  index (seq 200 | shuffle) 0 }}
+
+{{/* resize the images. don't resize svg image because its not supported */}}
+{{ if $achievementImage }}
+  {{ $achievementImageSm = $achievementImage.Resize "x300" }}
+  {{ $achievementImageSm =  $achievementImageSm.RelPermalink }}
+  {{ $achievementImageLg = $achievementImage.Resize "x1500" }}
+  {{ $achievementImageLg =  $achievementImageLg.RelPermalink }}
+{{ end }}
+{{/*  don't use "background-image: url('{{ $achievementImageSm }}');" Otherwise the images won't show in https://themes.gohugo.io/ */}}
+{{ if $video }}
+<div 
+  class="achievement-entry text-center"
+>
+{{ else }}
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('{{ $achievementImageSm }}');"
+>
+{{ end }}
+  <h4 class="title" id="achievement-title">{{ .title }}</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>{{ .title }}</h4>
+    <p>{{ .summary | markdownify }}</p>
+    {{ if .url }}
+      <a class="btn btn-info ml-1 pl-2 mb-2" href="{{ .url }}" target="_blank" rel="noopener" role="button">{{ i18n "project_details"}}</a>
+    {{ end }}
+  </div>
+  {{ if $video }}
+    <video class="video-player" id="video-{{ $randNumber }}" playsinline controls autoplay="true">
+      <source src="{{ $video }}" type="{{ $type | default "video/mp4" }}" />
+    </video>
+    
+  {{ else }}
+      <span style="background-image: url('{{ $achievementImageSm }}');" class="d-none" id="SmallImage" active="true"></span>
+    <span  style="background-image: url('{{ $achievementImageLg }}');" class="d-none" id="LargeImage"></span>
+  {{ end }}
+</div>
+

@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -11,54 +11,53 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Xiamen Pigeon Games Network Co., Ltd.
+    url: "https://www.pigeongames.cn/"
+    location: Xiamen, China
+    overview: Pigeon Games is a game studio that developed the famous rhythm game **Phigros**, which consists of an offline team and an online team with more than 50 active members.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Video Artist
+    start: Feb 2019
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Manage and plan all kind of video content.
+    - Make promotional video for major updates.
+    - Design and plan anniversary videos.
+    
+  - designation: Game Level Design
+    start: Feb 2019
+    responsibilities:
+    - Design charts/maps for the songs in rhythm games
+    - Involved in the design of part of the game flow.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Graphic Design
+    start: Feb 2019
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Design UI elements for the game
+    - Make 2D elements for promotion and videos
+    
+- company:
+    name: bildschnitt TV GmbH
+    url: "https://bildschnitt.tv/"
+    location: Deggendorf, Germany
+    overview: Video, print, social media advertising agency.
+  positions:
+  - designation: Intern for media design
+    start: 25 Feb 2019
+    end: 01 Mar 2019
+    responsibilities:
+    - Provie ideas for advertising videos.
+    - Design and produce advertising videos
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: L. Carlile Computer & Netzwerke
+    url: "https://www.carlile.de/"
+    location: Deggendorf, Germany
+    overview: Agency for networks, maintenance and support of computers and servers.
   positions:
   - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+    start: 16 Jul 2018
+    end: 20 Jul 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Diagnos computer sofware and hardware issue
+    - Repaire some eazy issue in the computer
+    - Install operating system
