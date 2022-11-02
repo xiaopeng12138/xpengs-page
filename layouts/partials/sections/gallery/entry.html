@@ -1,0 +1,11 @@
+
+
+
+{{ $randNumber :=  index (seq 200 | shuffle) 0 }}
+{{ if .isVideo }}
+  <video id="video-{{ $randNumber }}" autoplay muted loop>
+    <source src="{{ .path }}" type="{{ .type | default "video/mp4" }}" />
+  </video>
+{{ else }}
+  <img class="tall" src="{{ .path }}">
+{{ end }}

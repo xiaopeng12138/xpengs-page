@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Showcase
+  id: gallery
+  enable: false
+  weight: 1
+  showOnNavbar: true
+
+contents:
+- title: phigros
+  isVideo: false
+  path: images/author/xpeng.png
+
+- title: phigros
+  isVideo: true
+  path: /videos/sample.mp4
+
+- title: phigros
+  isVideo: true
+  path: /videos/sample.mp4
+
