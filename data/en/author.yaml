@@ -2,7 +2,7 @@
 name: ""
 nickname: "xpeng"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Yo! here is"
+greeting: ""
 image: "images/author/xpeng.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -11,10 +11,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a beginner Developer
-  - I am a Video Compositor
-  - I am a Motion Graphic Designer
-  - I am a Video Artist
-  - I work on open-source projects
-  - I love electronic diy
+  - Video Artist
+  - Content Creator
+  - Game Developer
+  - Open-Source Contributor
   - I love Rhythm Games

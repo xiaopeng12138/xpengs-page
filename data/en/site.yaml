@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: Copyright © 2022 xpeng121 all rights reserved.
+copyright: Copyright © 2024 xpeng121 all rights reserved.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This website is build with Hugo (Apache-2.0 license) and uses toha theme (MIT license). 
@@ -21,7 +21,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: xpeng's Blog
+  title: xpeng's website
   type: website
   description: A personal website of xpeng.
   image: images/author/xpeng.png

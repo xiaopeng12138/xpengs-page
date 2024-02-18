@@ -10,12 +10,18 @@ section:
   # hideTitle: true
 
 degrees:
+- name: Medientechnik Bachelor of Engineering
+  icon: fa-university
+  timeframe: 2023-Present
+  institution:
+    name: Deggendorf Institute of Technology
+    url: "https://www.th-deg.de/"
 - name: Advanced technical college certificate
   icon: fa-university
-  timeframe: 2020-Present
+  timeframe: 2020-2023
   institution:
     name: Aloys Fischer Schule Deggendorf
-    url: "http://www.afs-fosbos.de/"
+    url: "https://www.afs-fosbos.de/"
 - name: Mittlere Reife
   icon: fa-school
   timeframe: 2015-2020
