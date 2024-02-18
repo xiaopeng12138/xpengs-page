@@ -72,7 +72,7 @@ params:
       enable: true
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true
